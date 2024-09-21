@@ -1,5 +1,6 @@
 // resources.js
 import React from 'react';
+import './Generator.css';
 
 
 
@@ -8,10 +9,12 @@ function Contact() {
 
     <>
 
-    <div>
-      <h1>Contact</h1>
-      <p>Here you can find various resources to assist with your projects!</p>
-    </div>
+<section className="header-section text-center">
+        <div className="container">
+          <h1 className="main-title">Contact</h1>
+          <p className="subtitle">Connecting People, Ideas, and Resources for Financial Growth</p>
+        </div>
+      </section>
     </>
   );
 }

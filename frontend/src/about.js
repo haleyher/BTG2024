@@ -5,7 +5,7 @@ import './Generator.css'; // Custom CSS file for additional styling
 
 function generator() {
 
-  const email = "timthebeaver@gmail.com";
+  
 
   return (
     <div className="page-wrapper">

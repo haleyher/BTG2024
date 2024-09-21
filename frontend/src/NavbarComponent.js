@@ -18,7 +18,7 @@ function NavbarComponent() {
             <NavDropdown title="Resources" id="resources-dropdown">
               <NavDropdown.Item href="/resources">Resources</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/resources/FinancialMentorProgram">Financial Mentor Program</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/FinancialMentorshipProgram">Financial Mentorship Program</NavDropdown.Item>
               <NavDropdown.Item href="/resources/mutualaidprogram">Mutual Aid Prgram</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>

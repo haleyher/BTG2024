@@ -5,7 +5,7 @@ import Home from './home.js';
 import About from './about.js'
 import Resources from './Resources.js'
 import MutualAidProgram from './MutualAidProgram.js'
-import FinancialMentorProgram from './FinancialMentorProgram.js'
+import FinancialMentorshipProgram from './FinancialMentorshipProgram.js'
 import NavbarComponent from './NavbarComponent';
 import Contact from './contact';
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
-          <Route path="resources/FinancialMentorProgram" element={<FinancialMentorProgram />} />
+          <Route path="resources/FinancialMentorshipProgram" element={<FinancialMentorshipProgram />} />
           <Route path="resources/MutualAidProgram" element={<MutualAidProgram />} />
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
