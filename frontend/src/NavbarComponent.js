@@ -18,8 +18,8 @@ function NavbarComponent() {
             <NavDropdown title="Resources" id="resources-dropdown">
               <NavDropdown.Item href="/resources/guide">Guides</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/resources/tutorials">Financial Mentor Program</NavDropdown.Item>
-              <NavDropdown.Item href="/resources/tools">Mutual Aid Prgram</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/FinancialMentorProgram">Financial Mentor Program</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/mutualaidprogram">Mutual Aid Prgram</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
