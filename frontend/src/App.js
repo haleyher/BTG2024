@@ -7,6 +7,7 @@ import Resources from './Resources.js'
 import MutualAidProgram from './MutualAidProgram.js'
 import FinancialMentorProgram from './FinancialMentorProgram.js'
 import NavbarComponent from './NavbarComponent';
+import Contact from './contact';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="resources/FinancialMentorProgram" element={<FinancialMentorProgram />} />
           <Route path="resources/MutualAidProgram" element={<MutualAidProgram />} />
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
 
