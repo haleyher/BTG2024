@@ -1,68 +1,92 @@
-/* Styling for the generator component */
-
-.container {
-    max-width: 900px;
+/* Page Layout */
+.page-wrapper {
+    background-color: #f4f5f7;
+    font-family: 'Inter', sans-serif; /* A clean, modern font similar to Airbnb or Notion */
+    padding-bottom: 50px;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background: linear-gradient(120deg, #006666 0%, #00cccc 100%);
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .main-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .subtitle {
+    font-size: 1.4rem;
+    color: #e0f7f7;
+    max-width: 700px;
     margin: 0 auto;
   }
   
-  .display-4 {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  .lead {
-    font-size: 1.25rem;
-    color: #34495e;
+  /* Card Section */
+  .content-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 15px;
   }
   
   .card {
-    border-radius: 10px;
     border: none;
-    background-color: #f9f9f9;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft, modern shadow effect */
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
   }
   
-  .card-body {
-    padding: 2rem;
+  .card:hover {
+    transform: translateY(-5px);
   }
   
+  /* Usage and Purpose Card */
+  .usage-card {
+    background: #ffffff;
+    padding: 40px;
+  }
+  
+  .purpose-card {
+    background: #ffffff;
+    padding: 40px;
+  }
+  
+  /* Card Titles */
   .card-title {
-    color: #3498db;
+    font-size: 2rem;
     font-weight: 600;
+    color: #006666;
+    margin-bottom: 20px;
   }
   
+  /* Text Section */
   .textSection {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.8;
   }
   
-  .card-body p {
-    margin-bottom: 1.5rem;
-  }
-  
-  .shadow-lg {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1, h2 {
-    margin-bottom: 1rem;
-  }
-  
+  /* Responsive Design */
   @media (max-width: 768px) {
-    .display-4 {
-      font-size: 2rem;
+    .main-title {
+      font-size: 2.5rem;
     }
   
-    .lead {
+    .subtitle {
       font-size: 1.1rem;
     }
   
     .card-body {
-      padding: 1.5rem;
+      padding: 20px;
     }
   
     .textSection {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
   }
   
