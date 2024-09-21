@@ -1,9 +1,5 @@
 import "./App.css";
 
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-
 function generator() {
 
     var email = "timthebeaver@gmail.com";
@@ -11,32 +7,11 @@ function generator() {
   
     return (
       <>
-        <Navbar expand="lg" className="bg-body-tertiary">
-          <Container>
-            <Navbar.Brand href="/">IdeaBoard</Navbar.Brand>
-  
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/resources">Resources</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
-                
-              </Nav>
-              <Navbar.Text className="email">
-              Signed in as: <b> {email}</b>
-            </Navbar.Text>
-              
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
   
         <h1>YOOO</h1>
         <div className="card"></div>
         
-      {/* <div className="images">
-        <img src={logo} className="logo"/>
-        </div> */}
+      
         <h2>Usage</h2>
         <p className="textSection">
           hello
