@@ -8,6 +8,7 @@ import MutualAidProgram from './MutualAidProgram.js'
 import FinancialMentorshipProgram from './FinancialMentorshipProgram.js'
 import NavbarComponent from './NavbarComponent';
 import Contact from './contact';
+import Footer from './Footer.js';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
-
+      <Footer />
     </>
 
   );
