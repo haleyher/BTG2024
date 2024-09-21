@@ -4,7 +4,7 @@ import React from 'react';
 import './Generator.css'; // Custom CSS file for additional styling
 
 function generator() {
-    var email = "timthebeaver@gmail.com";
+    document.body.style.backgroundColor = '#e3e5e6';
 
     return (
       <>

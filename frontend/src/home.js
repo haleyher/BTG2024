@@ -2,8 +2,6 @@ import "./App.css";
 
 
 function generator() {
-
-    var email = "timthebeaver@gmail.com";
    
   
     return (
