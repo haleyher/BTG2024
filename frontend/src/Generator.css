@@ -82,6 +82,11 @@
     color: #333;
     font-weight: bold;
   }
+
+  .pagetitle {
+    text-align: center;
+
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
