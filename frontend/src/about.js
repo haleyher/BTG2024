@@ -31,6 +31,7 @@ function generator() {
             </div>
           </div>
 
+
           {/* Purpose Section */}
           <div className="card purpose-card mb-5">
             <div className="card-body">
