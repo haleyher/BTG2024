@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css or relevant CSS file */
+html, body {
+  height: 100%; /* Ensure the body takes full height */
+  margin: 0; /* Remove default margin */
+}
+
+.page-wrapper {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Make the wrapper take the full viewport height */
+}
+
+.content-section {
+  flex: 1; /* Allow content to grow and fill space */
+}
