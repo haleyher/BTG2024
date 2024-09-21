@@ -1,0 +1,68 @@
+/* Styling for the generator component */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .display-4 {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    color: #34495e;
+  }
+  
+  .card {
+    border-radius: 10px;
+    border: none;
+    background-color: #f9f9f9;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    color: #3498db;
+    font-weight: 600;
+  }
+  
+  .textSection {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .card-body p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .display-4 {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1.1rem;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .textSection {
+      font-size: 1rem;
+    }
+  }
+  

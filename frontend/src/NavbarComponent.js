@@ -16,7 +16,7 @@ function NavbarComponent() {
             <Nav.Link href="/about">About</Nav.Link>
             {/* Add a dropdown for Resources */}
             <NavDropdown title="Resources" id="resources-dropdown">
-              <NavDropdown.Item href="/resources/guide">Guides</NavDropdown.Item>
+              <NavDropdown.Item href="/resources">Guides</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/resources/FinancialMentorProgram">Financial Mentor Program</NavDropdown.Item>
               <NavDropdown.Item href="/resources/mutualaidprogram">Mutual Aid Prgram</NavDropdown.Item>
