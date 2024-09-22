@@ -82,9 +82,39 @@
     color: #333;
     font-weight: bold;
   }
+  
+  .bruh {
+    color: #006666;
+    text-align: center;
+  }
+
+  .align-items{
+    float: center;
+    text-align: center;
+  }
+
+  .titlete{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+  .right{
+    text-align: left;
+  }
+
+  .frame{
+    /* text-align: center; */
+    width: 1300px;
+    height: 600px;
+    padding-left: 30%;
+    
+  }
+
 
   .pagetitle {
     text-align: center;
+   
 
   }
   
@@ -105,5 +135,100 @@
     .textSection {
       font-size: 1.1rem;
     }
+
+
+
+
   }
   
+
+  ol {
+    padding-left: 20px;  /* Space between the list and the left edge */
+    list-style-type: decimal;
+    counter-reset: section;
+    margin-bottom: 40px;
+  }
+  
+  li {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 1.6;
+    padding-left: 40px;  /* Creates space for custom numbering */
+    /* border-left: 2px solid #4F94D4;  Vertical line to visually organize the list */
+  }
+  
+  /* Custom Counter for Ordered List */
+  /* li:before {
+    content: counter(section) ". ";  Custom numbering format
+    counter-increment: section;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    color: #4F94D4;  Matches the border color
+    font-weight: bold;
+  } */
+  
+  /* Sub-list Styling */
+  ul {
+    margin-top: 10px;
+    padding-left: 40px;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style-type: disc;  /* Standard bullet points for sub-lists */
+  }
+  
+  /* Styling for the input box (Consultation section) */
+  .consultant-box {
+    margin-top: 20px;
+  }
+  
+  .consultant-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .consultant-box input:focus {
+    border-color: #4F94D4;
+    outline: none;
+  }
+
+  /* Submit Button Styling */
+.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4F94D4; /* Button color matching the theme */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #3a76b4; /* Darken the button on hover */
+}
+
+.submit-btn:active {
+  background-color: #335d94; /* Even darker color on click */
+}
+
+.submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 3px #4F94D4;
+}
+

@@ -41,14 +41,12 @@
     border: none;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
     background-color: white;
     transition: transform 0.2s ease-in-out;
   }
   
-  .card:hover {
-    transform: translateY(-5px);
-  }
+  
   
   /* Usage and Purpose Card */
   .usage-card, .purpose-card, .contact-card {
@@ -71,6 +69,14 @@
     color: #00cccc;
     font-size: 1.5rem;
   }
+
+  .texttt {
+    padding: 30px;/* Adds space on the left */
+    font-size: 16px;
+    margin: 0 auto; /* Centers the paragraph if needed */
+    max-width: 1200px; /* Optional: Limits the width for better readability */
+    line-height: 2; /* Improves readability */
+  }
   
   /* Text Section */
   .textSection {
@@ -87,7 +93,7 @@
 
   .pagetitle {
     text-align: center;
-    padding: 100px;
+    
 
   }
   

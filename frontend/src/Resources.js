@@ -43,7 +43,7 @@ function Resources() {
 
           <div className="card carousel-card">
             <div className="card-body">
-              <h2 className="card-title">Card 2: Community Support</h2>
+              <h2 className="card-title"> Community Support</h2>
               <p className="textSection">
                 Get connected to community programs and resources that foster financial independence.
               </p>
@@ -52,7 +52,7 @@ function Resources() {
 
           <div className="card carousel-card">
             <div className="card-body">
-              <h2 className="card-title">Card 3: Career Growth</h2>
+              <h2 className="card-title">Career Growth</h2>
               <p className="textSection">
                 Explore career opportunities and mentorship programs to advance your professional journey.
               </p>
