@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import './App.css';
-import './Generator.css';
+import './Generatortwo.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
