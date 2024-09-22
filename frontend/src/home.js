@@ -8,7 +8,8 @@ function generator() {
       <>
         <h1>About IdeaBoard</h1>
         <div className="card"></div>
-        
+        <h3>Counts of households making $500K or more by race</h3>
+        <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/c0aafaf9-6703-409c-843e-b813eb9dfcbc/page/3GiCE" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         <h2>Usage</h2>
         <p className="textSection">
           To assist in brainstorming coding ideas!
