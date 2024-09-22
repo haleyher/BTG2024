@@ -4,6 +4,8 @@ import React from 'react';
 import { FaLightbulb, FaProjectDiagram, FaUsers } from 'react-icons/fa';
 import Footer from './Footer'; // Import the Footer component
 import './Generator.css';
+import { AiOutlineExclamationCircle } from 'react-icons/ai';
+
 
 function generator() {
     return (

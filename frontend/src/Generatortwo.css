@@ -1,0 +1,112 @@
+/* Page Layout */
+.page-wrapper {
+    background-color: #f4f5f7;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 50px;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background: linear-gradient(120deg, #006666 0%, #00cccc 100%);
+    color: white;
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .main-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 1.4rem;
+    color: #e0f7f7;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+
+  /* Content Section */
+  .content-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 15px;
+  }
+  
+  /* Card Section */
+  .card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Usage and Purpose Card */
+  .usage-card, .purpose-card, .contact-card {
+    background: #ffffff;
+    padding: 40px;
+  }
+  
+  /* Card Titles with Icons */
+  .card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #006666;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #00cccc;
+    font-size: 1.5rem;
+  }
+  
+  /* Text Section */
+  .textSection {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Contact Card Specific Styles */
+  .contact-card .textSection {
+    color: #333;
+    font-weight: bold;
+  }
+
+  .pagetitle {
+    text-align: center;
+    padding: 100px;
+
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.1rem;
+    }
+  
+    .card-body {
+      padding: 20px;
+    }
+  
+    .textSection {
+      font-size: 1.1rem;
+    }
+  }
+  
